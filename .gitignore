@@ -50,6 +50,7 @@ wandb/
 lightning_logs/
 mlruns/
 tensorboard/
+.mlflow/
 
 # Датасеты и данные
 data/
