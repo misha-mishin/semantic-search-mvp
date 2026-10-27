@@ -15,7 +15,7 @@
     "candidate_k": 100,
     "selection_metric": "ndcg_at_10",
     "selection_split": "train",
-    "source_run_id": "a3befc92c8d8487dbd1aa355fb937eb2"
+    "source_run_id": "3ab585dd5e4949ce8834668dd524e15a"
   },
   "configurations": {
     "baseline_lexical_full_no_brand": {
@@ -41,7 +41,7 @@
       "smooth_idf": true,
       "vocabulary_size": 30000,
       "evaluation_code": "final_test",
-      "source_train_run_id": "857023de5d7d426aa8bf6dd7beb11aaf",
+      "source_train_run_id": "4c9c9f7c030040c884f56947e3fc2b81",
       "selection_metric": "ndcg_at_10",
       "selection_split": "train",
       "selected_on_train": false
@@ -68,7 +68,7 @@
       "device": "mps:0",
       "document_embeddings_source": "existing_baseline_array",
       "evaluation_code": "final_test",
-      "source_train_run_id": "c9c62aafca2940bdb52c9f0e2e28f24a",
+      "source_train_run_id": "f2ae0c1b14a74df7bf246d5062ab864e",
       "selection_metric": "ndcg_at_10",
       "selection_split": "train",
       "selected_on_train": false
@@ -97,9 +97,9 @@
       "experiment_code": "exp01_add_brand",
       "changed_factor": "include_brand_name",
       "embeddings_cache_file": "emb_multilingual-e5-small_7f54c1f12a8f4ca5.npy",
-      "control_run_id": "c9c62aafca2940bdb52c9f0e2e28f24a",
+      "control_run_id": "f2ae0c1b14a74df7bf246d5062ab864e",
       "evaluation_code": "final_test",
-      "source_train_run_id": "ae33d635ff2c417ea8b0dc2dff830be3",
+      "source_train_run_id": "9d43de6a542844649f9f8f1a7e7afddf",
       "selection_metric": "ndcg_at_10",
       "selection_split": "train",
       "selected_on_train": false
@@ -128,7 +128,7 @@
       "vocabulary_size": 30000,
       "experiment_code": "exp03_hybrid_rrf",
       "changed_factor": "combine_rankings_with_rrf",
-      "control_run_id": "ae33d635ff2c417ea8b0dc2dff830be3",
+      "control_run_id": "9d43de6a542844649f9f8f1a7e7afddf",
       "model_name": "intfloat/multilingual-e5-small",
       "max_seq_length": 256,
       "batch_size": 64,
@@ -144,10 +144,10 @@
       "candidate_k": 100,
       "component_weighting": "equal",
       "tie_breaker": "imt_id_ascending",
-      "lexical_control_run_id": "b2a0a3027539447f99926b13a279a042",
-      "semantic_control_run_id": "ae33d635ff2c417ea8b0dc2dff830be3",
+      "lexical_control_run_id": "1adcb0251db14b9188ea40f0d2f3ec19",
+      "semantic_control_run_id": "9d43de6a542844649f9f8f1a7e7afddf",
       "evaluation_code": "final_test",
-      "source_train_run_id": "a3befc92c8d8487dbd1aa355fb937eb2",
+      "source_train_run_id": "3ab585dd5e4949ce8834668dd524e15a",
       "selection_metric": "ndcg_at_10",
       "selection_split": "train",
       "selected_on_train": true
