@@ -1,5 +1,5 @@
 {
-  "run_id": "bccd54c3f7f94f89b6b53e9f0114f583",
+  "run_id": "05aa19d290af42b29d68568b9f209e5a",
   "metrics": {
     "precision_at_1": 0.5533333333333333,
     "recall_at_1": 0.3812289562289562,
@@ -19,5 +19,5 @@
     "ndcg_at_10": 0.5906017185613143,
     "mrr": 0.681623015873016
   },
-  "evaluation_seconds": 5.45175416697748
+  "evaluation_seconds": 5.0775694999611005
 }

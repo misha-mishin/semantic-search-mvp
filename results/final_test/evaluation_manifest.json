@@ -15,7 +15,7 @@
     "candidate_k": 100,
     "selection_metric": "ndcg_at_10",
     "selection_split": "train",
-    "source_run_id": "8411b1b2062d43a2aa93d77afdbb207a"
+    "source_run_id": "a3befc92c8d8487dbd1aa355fb937eb2"
   },
   "configurations": {
     "baseline_lexical_full_no_brand": {
@@ -41,7 +41,7 @@
       "smooth_idf": true,
       "vocabulary_size": 30000,
       "evaluation_code": "final_test",
-      "source_train_run_id": "0a10cd7f029d4569b66bbd1a34a92573",
+      "source_train_run_id": "857023de5d7d426aa8bf6dd7beb11aaf",
       "selection_metric": "ndcg_at_10",
       "selection_split": "train",
       "selected_on_train": false
@@ -68,7 +68,7 @@
       "device": "mps:0",
       "document_embeddings_source": "existing_baseline_array",
       "evaluation_code": "final_test",
-      "source_train_run_id": "56523d0af03b439c8a9571443c9ff2b7",
+      "source_train_run_id": "c9c62aafca2940bdb52c9f0e2e28f24a",
       "selection_metric": "ndcg_at_10",
       "selection_split": "train",
       "selected_on_train": false
@@ -93,13 +93,13 @@
       "normalize_embeddings": true,
       "embedding_dimension": 384,
       "device": "mps:0",
-      "document_embeddings_source": "encoded_this_session",
+      "document_embeddings_source": "disk_cache",
       "experiment_code": "exp01_add_brand",
       "changed_factor": "include_brand_name",
       "embeddings_cache_file": "emb_multilingual-e5-small_7f54c1f12a8f4ca5.npy",
-      "control_run_id": "56523d0af03b439c8a9571443c9ff2b7",
+      "control_run_id": "c9c62aafca2940bdb52c9f0e2e28f24a",
       "evaluation_code": "final_test",
-      "source_train_run_id": "94d00ff494744a07807831722ebbd50d",
+      "source_train_run_id": "ae33d635ff2c417ea8b0dc2dff830be3",
       "selection_metric": "ndcg_at_10",
       "selection_split": "train",
       "selected_on_train": false
@@ -128,7 +128,7 @@
       "vocabulary_size": 30000,
       "experiment_code": "exp03_hybrid_rrf",
       "changed_factor": "combine_rankings_with_rrf",
-      "control_run_id": "94d00ff494744a07807831722ebbd50d",
+      "control_run_id": "ae33d635ff2c417ea8b0dc2dff830be3",
       "model_name": "intfloat/multilingual-e5-small",
       "max_seq_length": 256,
       "batch_size": 64,
@@ -144,10 +144,10 @@
       "candidate_k": 100,
       "component_weighting": "equal",
       "tie_breaker": "imt_id_ascending",
-      "lexical_control_run_id": "d3549bf3eb0d41d288f986d87a7d5662",
-      "semantic_control_run_id": "94d00ff494744a07807831722ebbd50d",
+      "lexical_control_run_id": "b2a0a3027539447f99926b13a279a042",
+      "semantic_control_run_id": "ae33d635ff2c417ea8b0dc2dff830be3",
       "evaluation_code": "final_test",
-      "source_train_run_id": "8411b1b2062d43a2aa93d77afdbb207a",
+      "source_train_run_id": "a3befc92c8d8487dbd1aa355fb937eb2",
       "selection_metric": "ndcg_at_10",
       "selection_split": "train",
       "selected_on_train": true
